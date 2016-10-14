@@ -1,16 +1,22 @@
 <h1>Welcome to Easy Spicy </h1>
+<br />
+<p> Ashwin </p>
+<p> Sethu </p>
+<p> Arun </p>
 <!-- <p>Find me in app/views/welcome/index.html.erb</p> -->
 
 <% #Comment %> 
-<%= "Count to 10" %>
-<br /> 
+<!--<br /> 
 <% 11.times do |i| %> 
 	<%= i %> 
 <% end %> 
+
 <br /> 
+-->
 <% if params.has_key?(:id) && params.has_key?(:var) %>
 	<%= "ID: " + @id.to_s %> <br />
 	<%= "Name: " + @name.to_s %> 
 <% end %> 
-<%= link_to("Go to Index", 
+<br />
+<%= link_to("Go to Sample", 
 	{ :controller => 'welcome', :action => 'sample', :id => 5, :var => "Ashwin"})%> 
