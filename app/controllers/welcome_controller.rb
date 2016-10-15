@@ -12,5 +12,6 @@ class WelcomeController < ApplicationController
   def sample
   	@controller_message = " Hello from controller"
   end
+  
 
 end
